@@ -25,6 +25,10 @@ form{
     border-radius: 5px;
 }
 
+div{
+    text-align: left;
+}
+
 button{
     font-size: 2em;
     background-color: hsl(0, 100%, 50%, 0.8);
