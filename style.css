@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+    color: hsl(240, 100%, 50%);
+}
+
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%, 0.3);
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0, 0%, 0%,0.8);
+    border-radius: 5px;
+}
+
+button{
+    font-size: 2em;
+    background-color: hsl(0, 100%, 50%, 0.8);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+button:hover{
+    background-color: hsl(0, 100%, 50%, 0.9);
+}
+button:active{
+    background-color: hsl(0, 100%, 50%, 1);
+}
